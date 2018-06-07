@@ -1,0 +1,31 @@
+#N canvas 952 101 602 570 10;
+#X obj 262 115 pix_video;
+#X obj 15 88 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 22 149 gemwin;
+#X msg 61 30 create;
+#X msg 73 58 destroy;
+#X msg 78 89 dimen 400 400;
+#X msg 92 120 color 1 0 0;
+#X obj 264 21 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 264 48 gemhead;
+#X obj 264 181 pix_texture;
+#X obj 264 222 rectangle 4 3;
+#X obj 90 298 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 84 409 circle 3;
+#X obj 85 373 translate 0 0 1 0;
+#X obj 89 334 gemwin;
+#X connect 0 0 9 0;
+#X connect 1 0 2 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;
+#X connect 5 0 2 0;
+#X connect 6 0 2 0;
+#X connect 7 0 8 0;
+#X connect 8 0 0 0;
+#X connect 9 0 10 0;
+#X connect 11 0 14 0;
+#X connect 13 0 12 0;
+#X connect 14 0 13 0;
